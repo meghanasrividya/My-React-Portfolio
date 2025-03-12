@@ -1,7 +1,7 @@
 // src/pages/HomePage.js
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import './HomePage.css';
+import './Homepage.css';
 import profilePic from '../assets/Meghana Photo.jpeg'; // Your profile picture
 
 function HomePage() {
