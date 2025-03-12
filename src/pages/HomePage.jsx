@@ -1,12 +1,47 @@
-// src/pages/HomePage.js
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import './Homepage.css';
 import profilePic from '../assets/Meghana Photo.jpeg'; // Your profile picture
 
 function HomePage() {
   return (
     <div className="home">
+      <style>
+        {`
+          .home {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+          }
+          
+          .home-content {
+            text-align: center;
+          }
+          
+          .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+          }
+          
+          .cta-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          
+          .cta-btn:hover {
+            background-color: #0056b3;
+          }
+        `}
+      </style>
+
       <div className="home-content">
         <img src={profilePic} alt="Profile" className="profile-pic" />
         <h1>Hello, I'm Meghana Aenugu</h1>
