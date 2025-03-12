@@ -43,6 +43,19 @@ const projects = [
     github: 'https://github.com/meghanasrividya/Portfolio_Website_using_Bootstrap',
     live: 'https://meghanasrividya.github.io/Portfolio_Website_using_Bootstrap/',
   },
+  {
+    "title": "README Generator",
+    "description": "This is a simple script to help you generate a professional README file for your project. It uses the InquirerPy library to prompt the user for input and the rich library to display styled output.",
+    "github": "https://github.com/meghanasrividya/readme-generator",
+    "live": "https://www.youtube.com/watch?v=oeEHj2LnxjM"
+  },
+  {
+    "title": "Jest Calculator",
+    "description": "This is a simple calculator project that demonstrates the use of basic arithmetic operations and unit testing with Jest. The project includes functions for addition, subtraction, multiplication, and division, along with corresponding test cases.",
+    "github": "https://github.com/meghanasrividya/jest-calculator",
+    "live": "https://www.youtube.com/watch?v=2Ztb54rfZJk"
+  }
+    
 ];
 
 function ProjectsPage() {
