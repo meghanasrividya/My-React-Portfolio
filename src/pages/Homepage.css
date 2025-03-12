@@ -1,0 +1,57 @@
+/* src/pages/HomePage.css */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vh; /* Make sure the div takes the full viewport height */
+    background-color: var(--primary-bg); /* Light gray background */
+    color: var(--primary-text); /* Dark text color */
+    text-align: center;
+    margin: 0; /* Ensure no margin around the page */
+  }
+  
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%; /* Ensure content takes the full width */
+    max-width: 1200px; /* Optional: You can limit max-width to make it more readable */
+    padding: 0 20px; /* Optional: add some horizontal padding */
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #34495e; /* Coral border */
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn {
+    padding: 15px 30px;
+    background-color: #34495e;; /* Coral button */
+    color: #e9ebf3;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-btn:hover {
+    background-color: #4e2bc0; /* Darker coral on hover */
+  }
+  

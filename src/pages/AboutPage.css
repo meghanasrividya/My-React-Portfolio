@@ -1,0 +1,70 @@
+/* src/pages/AboutPage.css */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;
+    background-color: #f4f7fa;
+    color: #2c3e50;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #34495e;
+    margin-bottom: 40px;
+  }
+  
+  .about-section {
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #34495e;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #7f8c8d;
+  }
+  
+  .about-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #7f8c8d;
+  }
+  
+  .about-section li {
+    margin-bottom: 10px;
+  }
+  
+  .work-history h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #2c3e50;
+  }
+  
+  .about-section a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  .about-section a:hover {
+    text-decoration: underline;
+  }
+  
