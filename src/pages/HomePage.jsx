@@ -13,6 +13,7 @@ function HomePage() {
             align-items: center;
             justify-content: center;
             height: 100vh;
+            width: 100vh;
             background-color: #f0f0f0;
           }
           
@@ -24,11 +25,12 @@ function HomePage() {
             width: 150px;
             height: 150px;
             border-radius: 50%;
+            border: 5px solid #34495e;
             margin-bottom: 20px;
           }
           
           .cta-btn {
-            background-color: #007bff;
+            background-color: #34495e;
             color: white;
             border: none;
             padding: 10px 20px;
